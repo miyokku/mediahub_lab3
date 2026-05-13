@@ -26,4 +26,4 @@ jobs:
 
       - name: Запустить тесты
         run: |
-          pytest -q
+          python -m pytest -q 
